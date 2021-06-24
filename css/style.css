@@ -217,7 +217,7 @@ section ul li:before {
 --------------------*/
 
 header {
-	background-image: url(../images/demo/bg-sanza.jpg);
+	background-image: url(../images/demo/bg-header.jpg);
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -269,8 +269,8 @@ header .intro-text .intro-heading {
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	word-spacing: 10px;
-	color: #FFFFFF;
-	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	color: #e74c3c;
+    text-shadow: 0px 2px 2px rgb(255 255 255);
 }
 
 @media (min-width: 768px) {
@@ -814,16 +814,18 @@ font-size: 11px;
 }
 
 .btn-xl {
-color: #fff;
-    background-color: #23AD21;
+	color: #fff;
+    background-color: #3bbc9c;
     /* border-color: #726FB9; */
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: normal;
     border-radius: 0;
     letter-spacing: 2px;
-    font-size: 16px;
-    padding: 17px 45px;
+    font-size: 22px;
+    padding: 9px 31px;
+    border-radius: 27px;
+    margin-top: 4px;
 }
 
 /* Back to top button
